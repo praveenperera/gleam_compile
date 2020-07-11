@@ -30,7 +30,7 @@ defmodule Mix.Tasks.Compile.Gleam do
   defp convert_files_to_modules(files) do
     files
     |> Enum.map(&String.replace(&1, "/", "@"))
-    |> Enum.map(&String.to_existing_atom/1)
+    |> Enum.map(&String.to_atom/1)
   end
 
   defp reload_modules(modules), do: Enum.map(modules, &IEx.Helpers.r/1)
