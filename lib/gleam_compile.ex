@@ -1,18 +1,5 @@
 defmodule GleamCompile do
   @moduledoc """
-  Documentation for `GleamCompile`.
+  Hex package to easily set up gleam compiler and code reloader
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> GleamCompile.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
