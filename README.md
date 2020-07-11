@@ -117,3 +117,7 @@ This package does two things
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/gleam_compile](https://hexdocs.pm/gleam_compile).
+
+## License
+
+GleamCompile is released under the Apache License 2.0 - see the [LICENSE](LICENSE.md) file.
