@@ -1,10 +1,10 @@
-<p align="center" style="margin-bottom: 4px"><img alt="GleamCompile" src="logo.svg" height="50px"></p>
+<p align="center"><img alt="GleamCompile" src="https://praveenperera.github.io/gleam_compile/logo.svg" height="50px"></img></p>
 <p align="center">Elixir + Gleam = ❤️ </p>
 <p align="center">
-    <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/l/gleam_elixir"></a>
-    <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/v/gleam_elixir"></a>
-    <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/dt/gleam_elixir"></a>
-    <a href="https://hexdocs.pm/gleam_elixir"><img alt="HexDocs.pm" src="https://img.shields.io/badge/hex-docs-purple.svg"></a>
+    <a href="https://hex.pm/packages/gleam_compile"><img alt="Hex.pm" src="https://img.shields.io/hexpm/l/gleam_compile"></a>
+    <a href="https://hex.pm/packages/gleam_compile"><img alt="Hex.pm" src="https://img.shields.io/hexpm/v/gleam_compile"></a>
+    <a href="https://hex.pm/packages/gleam_compile"><img alt="Hex.pm" src="https://img.shields.io/hexpm/dt/gleam_compile"></a>
+    <a href="https://hexdocs.pm/gleam_compile"><img alt="HexDocs.pm" src="https://img.shields.io/badge/hex-docs-purple.svg"></a>
 </p>
 
 ---
@@ -20,7 +20,7 @@ This package does two things
 
 **Demo with Phoenix Live Reload**
 
-<img src="demo.gif?raw=true" alt="Explainer" width="750px">
+<img src="https://praveenperera.github.io/gleam_compile/demo.gif?raw=true" alt="Explainer" width="750px">
 
 ## Installation
 
