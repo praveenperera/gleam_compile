@@ -31,8 +31,22 @@ defmodule Mix.Tasks.Compile.Gleam do
     files
     |> Enum.map(&String.replace(&1, "/", "@"))
     |> Enum.map(&String.to_atom/1)
+    |> Enum.map(&Code.ensure_loaded/1)
   end
 
-  defp reload_modules(modules), do: Enum.map(modules, &IEx.Helpers.r/1)
+  defp reload_modules(modules) do
+    Enum.map(modules, fn
+      {:error, :nofile} ->
+        Mix.Task.reenable("compile.erlang")
+        Mix.Task.run("compile.erlang")
+
+      {:module, module} ->
+        IEx.Helpers.r(module)
+
+      _ ->
+        :noop
+    end)
+  end
+
   defp should_reload_files?(), do: Application.get_env(:gleam_compile, :reload, true)
 end
