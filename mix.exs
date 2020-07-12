@@ -10,6 +10,7 @@ defmodule GleamCompile.MixProject do
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      compilers: Mix.compilers(),
 
       # hex
       description:
@@ -48,6 +49,6 @@ defmodule GleamCompile.MixProject do
   end
 
   defp deps do
-    [{:ex_doc, "~> 0.22", only: :dev, runtime: false}]
+    [{:ex_doc, "~> 0.21.3", only: :dev, runtime: false}]
   end
 end
