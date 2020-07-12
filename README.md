@@ -1,4 +1,4 @@
-<p align="center"> <img alt="GleamCompile" src="logo.svg"> </p>
+<p align="center" style="margin-bottom: 4px"><img alt="GleamCompile" src="logo.svg" height="50px"></p>
 <p align="center">Elixir + Gleam = ❤️ </p>
 <p align="center">
     <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/l/gleam_elixir"></a>
