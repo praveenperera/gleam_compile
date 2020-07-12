@@ -24,6 +24,8 @@ This package does two things
 
 ## Installation
 
+**_Note: Make sure [gleam](https://github.com/gleam-lang/gleam) is already installed on your system._**
+
 This package is available on [hex](https://hex.pm/packages/gleam_compile).
 
 1. The package can be installed by adding `gleam_compile` to your list of dependencies in `mix.exs`:
@@ -31,7 +33,7 @@ This package is available on [hex](https://hex.pm/packages/gleam_compile).
    ```elixir
    def deps do
      [
-       {:gleam_compile, "~> 0.1.0"}
+       {:gleam_compile, "~> 0.2.0"}
      ]
    end
    ```
