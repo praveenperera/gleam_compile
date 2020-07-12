@@ -38,7 +38,8 @@ This package is available on [hex](https://hex.pm/packages/gleam_compile).
    end
    ```
 
-2. Add `:gleam` to list of compilers in your `mix.exs`
+2. Add `:gleam` to list of compilers, and the gleam folders to the `erlc_paths`
+   in your `mix.exs`
 
    ```diff
    def project do
@@ -47,7 +48,7 @@ This package is available on [hex](https://hex.pm/packages/gleam_compile).
       version: "0.1.0",
       elixir: "~> 1.5",
       elixirc_paths: elixirc_paths(Mix.env()),
-      erlc_paths: ["src", "gen"],
+   +  erlc_paths: ["src", "gen"],
    +  compilers: [:gleam],
       start_permanent: Mix.env() == :prod,
       releases: releases(),
