@@ -1,4 +1,13 @@
-# GleamCompile
+<p align="center"> <img alt="GleamElixir" src="logo.svg"> </p>
+<p align="center">Elixir + Gleam = ❤️ </p>
+<p align="center">
+    <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/l/gleam_elixir"></a>
+    <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/v/gleam_elixir"></a>
+    <a href="https://hex.pm/packages/gleam_elixir"><img alt="Hex.pm" src="https://img.shields.io/hexpm/dt/gleam_elixir"></a>
+    <a href="https://hexdocs.pm/gleam_elixir"><img alt="HexDocs.pm" src="https://img.shields.io/badge/hex-docs-purple.svg"></a>
+</p>
+
+---
 
 ## Description
 
