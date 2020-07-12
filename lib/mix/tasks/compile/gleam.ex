@@ -9,7 +9,7 @@ defmodule Mix.Tasks.Compile.Gleam do
   end
 
   defp get_and_reload_files(gleam_build_output) do
-    if Mix.env() == :dev do
+    if Mix.env() == :dev && should_reload_files?() do
       gleam_build_output
       |> get_list_of_compiled_files()
       |> convert_files_to_modules()
@@ -34,4 +34,5 @@ defmodule Mix.Tasks.Compile.Gleam do
   end
 
   defp reload_modules(modules), do: Enum.map(modules, &IEx.Helpers.r/1)
+  defp should_reload_files?(), do: Application.get_env(:gleam_compile, :reload, true)
 end
