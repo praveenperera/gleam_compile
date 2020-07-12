@@ -24,8 +24,9 @@ This package does two things
 
 ## Installation
 
-1. If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-   by adding `gleam_compile` to your list of dependencies in `mix.exs`:
+This package is available on [hex](https://hex.pm/packages/gleam_compile).
+
+1. The package can be installed by adding `gleam_compile` to your list of dependencies in `mix.exs`:
 
    ```elixir
    def deps do
@@ -38,8 +39,8 @@ This package does two things
 2. Add `:gleam` to list of compilers in your `mix.exs`
 
    ```diff
-     def project do
-    [
+   def project do
+     [
       app: :jib,
       version: "0.1.0",
       elixir: "~> 1.5",
@@ -50,7 +51,7 @@ This package does two things
       releases: releases(),
       aliases: aliases(),
       deps: deps()
-    ]
+     ]
    end
    ```
 
@@ -122,10 +123,6 @@ This package does two things
        ]
      ]
    ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/gleam_compile](https://hexdocs.pm/gleam_compile).
 
 ## License
 

@@ -48,6 +48,6 @@ defmodule GleamCompile.MixProject do
   end
 
   defp deps do
-    []
+    [{:ex_doc, "~> 0.22", only: :dev, runtime: false}]
   end
 end
