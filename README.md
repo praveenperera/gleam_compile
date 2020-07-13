@@ -127,6 +127,11 @@ This package is available on [hex](https://hex.pm/packages/gleam_compile).
      ]
    ```
 
+## Acknowledgements
+
+- [Mixing Gleam & Elixir](https://dev.to/contact-stack/mixing-gleam-elixir-3fe3) – by [Michael Jones](https://twitter.com/michaelpjones)
+- [Louis](https://twitter.com/louispilfold) (creator of gleam) for [talking me through the process](https://twitter.com/PraveenPerera/status/1281696372954206208) and [helping with debugging](https://twitter.com/PraveenPerera/status/1281692313308340225)
+
 ## License
 
 GleamCompile is released under the Apache License 2.0 - see the [LICENSE](LICENSE.md) file.
