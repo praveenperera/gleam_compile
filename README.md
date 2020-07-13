@@ -24,7 +24,7 @@ This package does two things
 
 ## Installation
 
-**_Note: Make sure [gleam](https://github.com/gleam-lang/gleam) is already installed on your system._**
+**_Note: Make sure [gleam is already installed on your system](https://gleam.run/getting-started/installing-gleam.html)._**
 
 This package is available on [hex](https://hex.pm/packages/gleam_compile).
 
