@@ -49,7 +49,7 @@ This package is available on [hex](https://hex.pm/packages/gleam_compile).
       elixir: "~> 1.5",
       elixirc_paths: elixirc_paths(Mix.env()),
    +  erlc_paths: ["src", "gen"],
-   +  compilers: [:gleam],
+   +  compilers: [:gleam] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       releases: releases(),
       aliases: aliases(),
