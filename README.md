@@ -58,7 +58,7 @@ This package is available on [hex](https://hex.pm/packages/gleam_compile).
    end
    ```
 
-## Intergrating with Phoenix Live Reloader
+## Integrating with Phoenix Live Reloader
 
 1. Add `:gleam` to list of compilers in your `mix.exs`
 
